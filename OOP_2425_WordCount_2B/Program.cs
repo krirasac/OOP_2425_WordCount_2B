@@ -24,7 +24,10 @@ namespace OOP_2425_WordCount_2B
                     files[x].fileName = fileList[x];
                     files[x].Read();
                     files[x].Separate();
-                    Console.WriteLine($"{files[x].fileName} contains {files[x].getWordCount()} words.\n");
+                    files[x].uniqueWord();
+                    files[x].arrangeOrder();
+                    Console.WriteLine($"{files[x].fileName} contains {files[x].getWordCount()} words and {files[x].getUniWordCount()} unique words.\n");
+                    files[x].displayWords();
                 }
             }
 

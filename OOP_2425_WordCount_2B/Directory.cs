@@ -8,7 +8,7 @@ namespace OOP_2425_WordCount_2B
 {
     static internal class Directory
     {
-        public static string activeDir = @"C:\Users\Lenidar\Things\";
-        public static string mainList = @"List.txt";
+        public static string activeDir = @"C:\Users\Krizia\source\repos\OOP_2425_WordCount_2B\OOP_2425_WordCount_2B\bin\Debug\Text\";
+        public static string mainList = @"main.txt";
     }
 }

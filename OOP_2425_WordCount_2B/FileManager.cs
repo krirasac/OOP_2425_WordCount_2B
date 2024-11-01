@@ -19,8 +19,6 @@ namespace OOP_2425_WordCount_2B
                 using (StreamReader sr = new StreamReader(Directory.activeDir + fileName))
                 {
                     string line = "";
-                    // Read and display lines from the file until the end of
-                    // the file is reached.
                     while ((line = sr.ReadLine()) != null)
                     {
                         content.Add(line);
